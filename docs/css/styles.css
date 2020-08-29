@@ -1,0 +1,164 @@
+body{
+	font-size: 15px;
+	background-color: #F8F9F9;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header-nav{
+	border-radius: 0px;
+	border: 0px;
+	background-color: #0E6655;
+}
+
+#logo-image{
+	background: url('../images/cl.jpg') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+.navbar-brand h1{
+	color: #ffff;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3.7em;
+	margin-left: 30px;
+	text-shadow: 3px 3px 3px #000000;
+}
+
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+
+.navbar-brand span{
+	color: #ffff;
+	font-size: 1em;
+	margin-left: 40px;
+	text-shadow: 3px 3px 3px #000000;
+}
+
+li{
+	background-color: #0E6655;
+	text-align: center;
+}
+
+ul li a{
+	color: #ffffff;
+	padding: 6px;
+	margin: 6px;
+	font-size: 15px;
+}
+
+ul li a:hover {
+	text-decoration: none;
+	text-shadow: #000;
+	color: #edb879;
+}
+
+#meal div{
+	background-color: #edb879;
+	border-radius: 10px;
+}
+
+
+
+#Snacks a div{
+	margin-top: 10px;
+}
+
+/*#SnacksImage{
+	background: url('../images/snack.png') no-repeat;
+	width: 317px;
+	height: 217px;
+	margin: 15px auto 15px;
+}
+
+#KImage{
+	background: url('../images/kb.png') no-repeat;
+	width: 317px;
+	height: 217px;
+	margin: 15px auto 15px ;
+}
+
+#fc{
+	background: url('../images/coffee.png') no-repeat;
+	width: 317px;
+	height: 217px;
+	margin: 15px auto 15px;
+}*/
+
+.navbar-toggle{
+	height: 40px;
+	width: 35px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: #0B5345;
+	color: #fff;
+}
+
+#meal h3{
+	text-align: center;
+}
+
+.jumbotron div h1{
+	text-align: center;
+}
+
+/*Desktop*/
+@media (min-width: 769px){
+	.navbar-toggle{
+		display: none;
+	}
+	.navbar-collapse{
+		display: none;
+	}
+}
+
+/*Tablet*/
+@media (min-width: 577px) and (max-width: 768px){
+	.navbar-toggle{
+		display: none;
+	}
+	.navbar-collapse{
+		display: none;
+	}
+
+	body{
+		font-size: 12px;
+	}
+	.text-center h1{
+		font-size: 30px;
+	}
+	#meal h3{
+		font-size: 30px;
+	}
+}
+
+/*Phone*/
+@media (max-width: 576px){
+	#header-nav{
+	height: 90px;
+	}
+
+	.navbar-brand h1{
+	font-size: 1.7em;
+	margin-left: 15px;
+	margin-bottom: 4px
+	}
+
+	.navbar-brand span{
+	font-size: 0.6em;
+	margin-left: 20px;
+	}
+
+	body{
+		font-size: 0.9em;
+	}
+	.text-center h1{
+		font-size: 21px;
+	}
+	#meal h3{
+		font-size: 21px;
+	}
+	
+}
